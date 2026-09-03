@@ -1,0 +1,17 @@
+
+body{margin:0;font-family:Arial,sans-serif;background:#fff8f3;color:#1f1a24;line-height:1.6}
+a{text-decoration:none;color:inherit}.container{width:min(1120px,calc(100% - 40px));margin:auto}
+header{position:sticky;top:0;background:#fff8f3ee;border-bottom:1px solid #1f1a2418}
+.nav{height:74px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:900;font-size:22px}
+.navlinks{display:flex;gap:22px;color:#6f6673}.hero{padding:110px 0 85px;background:radial-gradient(circle at 12% 0%,#ff7a6e1f,transparent 28%),radial-gradient(circle at 88% 5%,#8b6cff1a,transparent 30%)}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center}.badge{display:inline-block;padding:8px 12px;border:1px solid #1f1a2420;border-radius:99px;color:#8b6cff;font-weight:700}
+.hero h1{font-size:clamp(3.1rem,7vw,6.2rem);line-height:.95;letter-spacing:-.06em;margin:20px 0}.grad{background:linear-gradient(90deg,#ff7a6e,#8b6cff);-webkit-background-clip:text;color:transparent}
+.muted{color:#6f6673}.btn{display:inline-block;padding:13px 18px;border-radius:14px;font-weight:800;margin-right:10px}.primary{background:linear-gradient(135deg,#ff7a6e,#8b6cff);color:white}.secondary{border:1px solid #1f1a2420;background:white}
+.panel,.card{background:#fff;border:1px solid #1f1a2418;border-radius:24px;padding:26px}.panel{min-height:380px;display:flex;flex-direction:column;justify-content:center;background:linear-gradient(145deg,#fff,#fff0eb 60%,#eee7ff)}
+.poster{background:#1f1a24;color:white;border-radius:22px;padding:24px}.poster h3{font-size:2rem;margin:10px 0}.line{height:8px;border-radius:99px;background:linear-gradient(90deg,#ff7a6e,#8b6cff);width:75%}
+.section{padding:80px 0}.section h2,.page h1{font-size:clamp(2.2rem,5vw,4.2rem);letter-spacing:-.05em}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.page{padding:85px 0 35px}.portfolio,.two{display:grid;grid-template-columns:1fr 1fr;gap:22px}.process{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.step{background:#fff;border:1px solid #1f1a2418;border-radius:22px;padding:24px}.step span{color:#ff7a6e;font-weight:900}
+input,textarea{width:100%;box-sizing:border-box;margin:8px 0;padding:14px;background:white;border:1px solid #1f1a2420;border-radius:12px;color:#1f1a24}textarea{min-height:140px}
+footer{border-top:1px solid #1f1a2418;padding:28px 0;color:#6f6673;margin-top:60px}
+@media(max-width:850px){.hero-grid,.grid3,.portfolio,.two{grid-template-columns:1fr}.process{grid-template-columns:1fr 1fr}.navlinks{gap:12px;font-size:14px}}

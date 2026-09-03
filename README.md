@@ -1,5 +1,14 @@
-# Auntyant Creative Website
+# Auntyant Creative Website V2
 
-Branding, graphic design, visual content and social media.
+Premium website for **Auntyant Creative**.
 
-GitHub Pages: Settings → Pages → Deploy from a branch → main → /(root).
+## Improvements in this version
+- More artistic hero visual with brand-board composition
+- Stronger and more balanced navigation
+- Trust strip after hero
+- Featured projects with visual previews
+- Creative studio style presentation
+- Responsive design
+
+GitHub Pages:
+Settings → Pages → Deploy from a branch → main → /(root)
